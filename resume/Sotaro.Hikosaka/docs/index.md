@@ -1,17 +1,45 @@
-# Welcome to MkDocs
+# 職務経歴書
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 本人情報
 
-## Commands
+* 氏名：　彦坂　総太郎
+* Name:  Sotaro Hikosaka
+* 居住地: 川崎市高津区（溝の口）
+* 最終学歴: 東京都立小平高等学校
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+##　職務経歴
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* 1991/4 武蔵電算(派遣)： 派遣先：マツダ株式会社東京本社飯田橋計算センター
+* 1993/3 同・退社
+* 1993/4 有限会社め組：　直接雇用：事務関連処理・受託業務
+* 1996〜1999 檜伸図書株式会社/w-ing.or.jp のインフラ管理受託
+* 2001/2 同・退社
+* 2001/3〜 有限会社クルー：直接雇用：受託システム開発・監理・インフラ管理
+
+## 技術スタック
+* javascript  3年〜
+* php         10年〜
+* python      2年〜3年
+* ruby        1年 以下
+* VB6.x       〜 5年
+* VB.Net      〜 3年
+
+## スキル
+* FreeBSD/OS 管理全般 (20年以上)
+* DNS/MAIL　小規模ネットワーク管理全般
+* PHP を使用した小規模システム開発
+* nodejs/expressjs を使用した小規模システム開発
+* database管理(主 postgresql)
+
+
+## 現在の関心範囲
+* 製造現場での問題可視化
+* OS管理の自動化 (特に FreeBSD / Ansibleカスタマイズ)
+* LLM(llama.cpp/ollama の実用化に対する調査)
+
+## 就業条件
+* 勤務形態: リモートをメイン：　出社・現地作業も可能
+
+## その他
+* 地球環境に優しい移動手段の自転車利用シフトを進めている。
