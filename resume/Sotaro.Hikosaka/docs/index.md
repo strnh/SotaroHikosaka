@@ -56,4 +56,4 @@
 
 ## その他
 * 地球環境に優しい移動手段の自転車利用シフトを進めている。
-* ロードバイク趣味: https://www.strava.com/athletes/105395662
+* ロードバイク趣味: <a href="https://www.strava.com/athletes/105395662">Strava</a>
