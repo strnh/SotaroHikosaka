@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +8,15 @@
         
         
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
+        <title>resume</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
@@ -20,14 +24,14 @@
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
+                <a class="navbar-brand" href=".">resume</a>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -38,44 +42,44 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">職務経歴書</a>
+            <li class="nav-item" data-bs-level="1"><a href="#_1" class="nav-link">職務経歴書</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">本人情報</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">職務経歴</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_2" class="nav-link">本人情報</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">技術スタック</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_3" class="nav-link">職務経歴</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">特性・スキルと知見</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_4" class="nav-link">技術スタック</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">現在進めているもの</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_5" class="nav-link">特性・スキルと知見</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_7" class="nav-link">就業条件</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_6" class="nav-link">現在進めているもの</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_8" class="nav-link">その他</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_7" class="nav-link">就業条件</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_8" class="nav-link">その他</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -127,18 +131,21 @@
 <li>VB.Net を使用した小規模アプリの開発</li>
 <li>Microsoft Access を使用した簡易アプリ開発</li>
 <li>PHP を使用した小規模システム開発</li>
-<li>nodejs/expressjs を使用した小規模システム開発</li>
-<li>RDBM 保守管理(postgresql/firebird/mysql/sqlite)</li>
+<li>
+<p>nodejs/expressjs を使用した小規模システム開発
+<img alt="ScreenShot" src="images/soldata_ss.png" /></p>
+</li>
+<li>
+<p>RDBM 保守管理(postgresql/firebird/mysql/sqlite)</p>
+</li>
 <li>カスタマーサービス/トラブルシューティング(aka TroubleHunting..)</li>
 </ul>
 <h2 id="_6">現在進めているもの</h2>
-<ul>
-<li>「負の遺産」清算と効率化</li>
-<li>製造現場での問題可視化</li>
-<li>raspberry-pi の 活用</li>
-<li>OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)</li>
-<li>LLM(llama.cpp/ollama の実用化に対する調査)</li>
-</ul>
+<p>*「負の遺産」清算と効率化
+* 製造現場での問題可視化
+* raspberry-pi の 活用
+* OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)
+* LLM(llama.cpp/ollama の実用化に対する調査)</p>
 <h2 id="_7">就業条件</h2>
 <ul>
 <li>勤務形態: リモートをメイン：　出社・現地入構作業も可能</li>
@@ -155,8 +162,7 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = ".",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -169,7 +175,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -189,7 +195,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
@@ -229,6 +235,6 @@
 </html>
 
 <!--
-MkDocs version : 1.5.3
-Build Date UTC : 2025-02-05 00:53:55.548995+00:00
+MkDocs version : 1.6.1
+Build Date UTC : 2025-03-04 06:49:27.924650+00:00
 -->

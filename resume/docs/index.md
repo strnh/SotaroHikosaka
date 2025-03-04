@@ -39,12 +39,14 @@
 * Microsoft Access を使用した簡易アプリ開発
 * PHP を使用した小規模システム開発
 * nodejs/expressjs を使用した小規模システム開発
+![ScreenShot](images/soldata_ss.png)
+
 * RDBM 保守管理(postgresql/firebird/mysql/sqlite)
 * カスタマーサービス/トラブルシューティング(aka TroubleHunting..)
 
 
 ## 現在進めているもの
-* 「負の遺産」清算と効率化
+*「負の遺産」清算と効率化
 * 製造現場での問題可視化
 * raspberry-pi の 活用
 * OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)
