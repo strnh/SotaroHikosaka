@@ -21,29 +21,57 @@
 ## 技術スタック
 * shell/awk/perl 
 * javascript  3年〜
-* php         10年〜
+* [php](./php.md)         10年〜
 * python      2年〜3年
 * ruby        1年 以下
-* VB6.x       〜 5年
+* [VB6.x](./vb6.md)       〜 5年
 * VB.Net      〜 3年
 
-## 特性・スキルと知見
+## 特性・スキル
 * 手当たりしだいに何でも読む。広く浅く。
+
+## 初期の知見
 * 汎用機オペレータを経験。
-* SunOS4.x/HP-UX11 のある現場でのオペレーション業務従事
-* Linux kernel 0.99 〜 6.8まで一通りの歴史。現在はUbuntuを日常業務で使う。
+* 個人的には 8bit PC(MC6809) アセンブラでカンタンなものを書くことからスタート
+* 1986年　OS/9(6809) に触れる機会を得る。
+* 1990年 Linux1.0 をインストールし、UUCPを利用して勤務先とつなげる。
+* SunOS4.x/HP-UX11 のある現場でのオペレーション業務従事。
+
+
+##　主な業績
+
+* [ISP事業運営への参画](./w-ing.md)
+* [有限会社クルー創業時の参画](./crew.md)
+* [京浜島の鍍金工業団地でのLAN](./cmk.md)
+* [取引先企業へのツール作成](./access.md)
+* [Linux普及初期における運用](./slackware.md)
+* [FreeBSDによる完全移行](./freebsd.md)
+* [IPSec/VPN 相互運用](./ipsec.md)
+* [qmailメールシステム運用](./qmail.md)
+* [postfixメールシステム運用](./postfix.md)
+* [DNS/djbdns](./djbdns.md)
+* [DNS/powerdns](./powerdns.md)
+* [広告代理店のWebシステム管理](./freebsd-php.md)
+* [広告代理店・WebシステムバックエンドDB管理](./firebird.md)
+
+## 現況
+
+* Linux 現在は　Ubuntu　を日常業務で活用。
+* デスクトップ環境としてGhostBSD(FreeBSD)、macBookAir(macOS)も日々活用。
+* [P2V: Windows95](./win95.md) で動くFAシステムに対するサポート。Windows10 PCの上のVirtualBoxで Windows95を稼働させ、ソフトウェア資産の減耗に対するケアを提供。
 * Apple/macOS: iPhoneアプリ開発のため取得。iPhoneのMDM管理などに利用。
-* FreeBSD/OS 管理全般 (4.x時代から今まで20年以上)
-* samba/openldap/radius/nagios/zabbix/postfix　保守管理（コードカスタマイズ含む）
-* DNS/MAIL　小規模ネットワーク管理全般
-* VB.Net を使用した小規模アプリの開発
-* Microsoft Access を使用した簡易アプリ開発
-* PHP を使用した小規模システム開発
+* FreeBSD/OS 管理全般 (インストールサーバ数 33台/ OSコンテナ含む160程度を管理）
+* samba/openldap/radius/nagios/zabbix/postfix　の 保守管理（ローカルなコードカスタマイズ含む）
+* VPN/DNS の知識を活用した様々な提案と運用環境の実現・運用サポート
+* WindowsPCの日常管理サポート・提携先ソフトウェア事業のサポート（DB運用など）
+* TeamViewer/VNC/RDP を駆使してリモートでのエンドユーザサポート
+
+
+## サンプルなど
 * nodejs/expressjs を使用した小規模システム開発
+
 ![ScreenShot](images/soldata_ss.png)
 
-* RDBM 保守管理(postgresql/firebird/mysql/sqlite)
-* カスタマーサービス/トラブルシューティング(aka TroubleHunting..)
 
 
 ## 現在進めているもの
@@ -52,7 +80,7 @@
 * 製造現場での問題可視化
 * raspberry-pi の 活用
 * OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)
-* LLM(llama.cpp/ollama の実用化に対する調査)
+* LLM([llama.cpp](https://qiita.com/search?sort=&q=user%3Astrnh+llama)/ollama の実用化に対する調査)
 * Python/ES/tsx その他
 
 
