@@ -1,4 +1,4 @@
-## [firebird](https://ja.wikipedia.org/wiki/Firebird_(%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9) の保守管理
+## [firebird](https://ja.wikipedia.org/wiki/Firebird_(%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)) の保守管理
 * Interbase (RDBM) を利用していたシステムを FreeBSDに移行する際に firebird を採用
 
 ## 主な業績

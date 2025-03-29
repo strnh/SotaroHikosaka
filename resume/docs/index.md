@@ -43,7 +43,7 @@
 * [ISP事業運営への参画](./w-ing.md)
 * [有限会社クルー創業時の参画](./crew.md)
 * [京浜島の鍍金工業団地でのLAN](./cmk.md)
-* [取引先企業へのツール作成](./access.md)
+* [Access2000/取引先企業へのツール作成](./access.md)
 * [Linux普及初期における運用](./slackware.md)
 * [FreeBSDによる完全移行](./freebsd.md)
 * [IPSec/VPN 相互運用](./ipsec.md)
