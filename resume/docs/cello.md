@@ -16,7 +16,7 @@
 * プーランク/Les animaux modèles
 * [グリンカ/幻想曲<<カマーリンスカヤ>>](https://www.sinfoniettasorriso.info/posts/3260512?categoryIds=922283)
 * [ラウダ・コンチェルタータ](https://ainola.jp/archives/340)
-* [ステファネスク/交響曲] (https://www.sinfoniettasorriso.info/posts/41814926?categoryIds=922283)
+* [ステファネスク/交響曲](https://www.sinfoniettasorriso.info/posts/41814926?categoryIds=922283)
 * [スヴェンセン/交響曲第２番,ハルヴォルセン/交響曲第一番](https://excelsis.sub.jp/)
 
 
