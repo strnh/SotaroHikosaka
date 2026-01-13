@@ -37,28 +37,29 @@
 * 汎用機オペレータを経験。
 * 個人的には 8bit PC(MC6809) アセンブラでカンタンなものを書くことからスタート
 * 1986年　[OS/9](./os-9.md)(6809) に触れる機会を得る。
-* 1990年 Linux1.0 をインストールし、UUCPを利用して勤務先とつなげる。
-* SunOS4.x/HP-UX11 のある現場でのオペレーション業務従事。
+* 1990年 Linux1.0 をインストールし、UUCPを利用して勤務先接続。 　[Linux普及初期における運用](./slackware.md)
 
+* 1996年ごろから　SunOS4.x/HP-UX11 のある現場でのオペレーション業務従事。
 
-##　主な業績
+##　主な参画・業績
 
-* [ISP事業運営への参画](./w-ing.md)
-* [有限会社クルー創業時の参画](./crew.md)
-* [京浜島の鍍金工業団地でのLAN](./cmk.md)
-* [Access2000/取引先企業へのツール作成](./access.md)
-* [Linux普及初期における運用](./slackware.md)
-* [FreeBSDによる完全移行](./freebsd.md)
-* [IPSec/VPN 相互運用](./ipsec.md)
-* [qmailメールシステム運用](./qmail.md)
-* [postfixメールシステム運用](./postfix.md)
-* [DNS/djbdns](./djbdns.md)
-* [DNS/powerdns](./powerdns.md)
-* [広告代理店のWebシステム管理](./freebsd-php.md)
-* [広告代理店・WebシステムバックエンドDB管理](./firebird.md)
+* 1996年　[ISP事業運営への参画](./w-ing.md)
+* 1999年　[有限会社クルー創業時の参画](./crew.md)
+* 1999年　[京浜島の鍍金工業団地でのLAN](./cmk.md)
+* 1999年　[Access2000/取引先企業へのツール作成](./access.md)
+* 2002年　[FreeBSDによる完全移行](./freebsd.md)
+* 2004年　[IPSec/VPN 相互運用](./ipsec.md)
+* 2001年　[qmailメールシステム運用](./qmail.md)
+* 2020年　[postfixメールシステム運用](./postfix.md)
+* 2002年　[DNS/djbdns](./djbdns.md)
+* 2020年　[DNS/powerdns](./powerdns.md)
+* 2008年ー[広告代理店のWebシステム管理](./freebsd-php.md)
+* 2015年ー[広告代理店・WebシステムバックエンドDB管理](./firebird.md)
+* 2025年　[排水管理・三菱PLC接続・データ管理](./plc-python.md) 
 
 ## 現況
 
+* 業務システム改善に、GitHub Copilot と対話する日々
 * Linux 現在は　Ubuntu　を日常業務で活用。
 * デスクトップ環境としてGhostBSD(FreeBSD)、macBookAir(macOS)も日々活用。
 * [P2V: Windows95](./win95.md) で動くFAシステムに対するサポート。Windows10 PCの上のVirtualBoxで Windows95を稼働させ、ソフトウェア資産の減耗に対するケアを提供。
