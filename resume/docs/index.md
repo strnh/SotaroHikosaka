@@ -59,7 +59,7 @@ i
 * 2008年ー[広告代理店のWebシステム管理](./freebsd-php.md)
 * 2015年ー[広告代理店・WebシステムバックエンドDB管理](./firebird.md)
 * 2025年　[排水管理・三菱PLC接続・データ管理](./plc-python.md) 
-* 2026年  [広告代理店/規格認証業務団体主催事業系Webリファクタリング](./sdforum_refoctoring.md)
+* 2026年  [広告代理店/規格認証業務団体主催事業系Webリファクタリング](./sdforum_refactoring.md)
 ## 現況
 
 * 業務システム改善に、Claude Code/codex によるリファクタリングに従事

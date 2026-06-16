@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../w-ing/">
+        <link rel="prev" href="../roadbike/">
       
+      
+        <link rel="next" href="../slackware/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Win95 - resume</title>
+        <title>リファクタリング総括 - resume</title>
       
     
     
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#windows95" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Win95
+              リファクタリング総括
             
           </span>
         </div>
@@ -543,10 +545,31 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../sdforum_refactoring/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    リファクタリング総括
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -556,6 +579,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      概要
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      リファクタリングの指針（長期目標）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      現在の取り組み（実装の実態）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#db" class="md-nav__link">
+    <span class="md-ellipsis">
+      DB・インフラ運用の構造化
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      品質ゲート / ワークフロー
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      今後
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -627,29 +724,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Win95
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../win95/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -659,33 +737,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#windows95" class="md-nav__link">
-    <span class="md-ellipsis">
-      Windows95で動くレガシーシステムの保持
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -707,6 +758,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -715,9 +768,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#windows95" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Windows95で動くレガシーシステムの保持
+      概要
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      リファクタリングの指針（長期目標）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      現在の取り組み（実装の実態）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#db" class="md-nav__link">
+    <span class="md-ellipsis">
+      DB・インフラ運用の構造化
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      品質ゲート / ワークフロー
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      今後
     </span>
   </a>
   
@@ -739,14 +837,56 @@
 
 
 
-  <h1>Win95</h1>
-
-<h2 id="windows95">Windows95で動くレガシーシステムの保持</h2>
+<h1 id="_1">リファクタリング総括</h1>
+<blockquote>
+<p>本書は、年次セミナー申込システム（レガシー PHP）のリファクタリング業務を、
+機微情報・固有名詞（組織名・個人名・サーバ情報等）を伏せて要約したものである。
+機能仕様ではなく「何を負債と捉え、どう構造化しているか」を主眼とする。</p>
+</blockquote>
+<h2 id="_2">概要</h2>
+<p>本システムは、年度ごとに申込フォーム一式を<strong>年度別ディレクトリへ丸ごと複製</strong>して
+運用してきたレガシー PHP アプリケーションである。この運用の結果、申込処理を担う
+中心ファイルは 1 本で 10 万字規模まで肥大し、同種ロジックが各年度に重複している。
+この<strong>巨大モノリスと重複</strong>が負債の中心であり、リファクタリングの主対象となっている。</p>
+<h2 id="_3">リファクタリングの指針（長期目標）</h2>
+<ol>
+<li><strong>単一責任（SRP）</strong>: 大きなスクリプトの分割、CSS/JS の分離、共通処理のクラス化、
+   依存性注入、全システムで使う定数値の DB 化。</li>
+<li><strong>負の遺産を継承しない</strong>: 改修時はテンプレートエンジン・フレームワーク移行を前提に設計する。</li>
+<li><strong>DB 運用体制の確立</strong>: dump→migration→seed サイクル、冪等性の確保、IaC を意識した補助ツールの整備。</li>
+<li><strong>フレームワークへの漸進的移行</strong>: モデル化・テンプレート化を段階的に進める。</li>
+<li><strong>要件定義の体系化（EARS）</strong>: 自然言語要件を構造化する。</li>
+<li><strong>ハードコードされた magic の外部化</strong>: 設定値を DB / 環境ファイル / JSON へ追い出す。</li>
+</ol>
+<h2 id="_4">現在の取り組み（実装の実態）</h2>
 <ul>
-<li>VirtualBoxによる旧システムイメージの運用確保</li>
-<li>RS232接続のバッファリング機構などの追加</li>
+<li><strong>モノリスの分解</strong>: 中心ファイルから責務を切り出し、DB アクセス・ビューモデル・
+  入力検証・汎用ヘルパーを別ファイルへ分離している。1 ファイルに混在していた
+  「取得・整形・検証・描画」を層として切り分ける方針。</li>
+<li><strong>安全な DB アクセス層</strong>: 専用の DB クラスが用意した query / fetch 系ヘルパーを通じて
+  アクセスし、生クエリの文字列連結やレガシー DB 拡張 API を置換。SQL インジェクション
+  耐性を底上げし、レガシー API への逆戻りは静的チェックで退行防止している。</li>
+<li><strong>テンプレート化</strong>: テンプレートレンダラを導入し、ビューを順次テンプレート形式へ
+  移行。表示と処理の分離を進め、フレームワーク移行の前段としている。</li>
+<li><strong>セッション/セキュリティの抽出</strong>: セッション管理、bot 対策、認証情報を専用モジュールへ分離。</li>
+<li><strong>設定の外部化</strong>: 環境差分やマッピングを JSON 等へ追い出し、コード内の magic を削減。</li>
 </ul>
-<p><img alt="Images" src="../images/win95.png" /></p>
+<h2 id="db">DB・インフラ運用の構造化</h2>
+<ul>
+<li>migration / seed をディレクトリで管理し、dump→migration→seed のサイクルと
+  <strong>冪等性</strong>を確保。通年で共有するデータは専用 DB に分離している。</li>
+<li>IaC を意識した補助スクリプト群を整備し、バックアップ・互換性チェック・
+  プロビジョニング・同期を自動化。</li>
+<li><strong>破壊操作を構造的に排除</strong>: 再帰削除を使わず、削除対象を manifest に列挙して
+  1 件ずつ削除する仕組みを採用（本番での事故範囲を最小化）。</li>
+</ul>
+<h2 id="_5">品質ゲート / ワークフロー</h2>
+<p>変更は「課題化 → 計画 → サンドボックスでの E2E → PR → クローズ」を標準フローとし、
+本番反映前に必ず隔離環境で回帰確認を行う。E2E はブラウザ自動化を併用し、
+CI とコードレビューで品質を担保。レビューでの頻出指摘は作業慣習として蓄積している。</p>
+<h2 id="_6">今後</h2>
+<p>フレームワークへの段階移行、テンプレート分離の横展開、要件の EARS 化、
+定数の DB 化を継続し、年度別複製に依存しない構造への転換を目指す。</p>
 
 
 
