@@ -19,6 +19,7 @@
 * 2001/3〜現在 有限会社クルー：直接雇用：受託システム開発・監理・インフラ管理
 
 ## 技術スタック
+
 * shell/awk/perl 
 * javascript  3年〜
 * [php](./php.md)         10年〜
@@ -28,12 +29,14 @@
 * VB.Net      〜 3年
 
 ## 特性・スキル
+
 * [ロードバイク](./roadbike.md)で移動できる。
 * [音楽](./cello.md)もわかる。
 * 手当たりしだいに何でも[読む](./bookworm.md)。広く浅く。
 
 
 ## 初期の知見
+i
 * 汎用機オペレータを経験。
 * 個人的には 8bit PC(MC6809) アセンブラでカンタンなものを書くことからスタート
 * 1986年　[OS/9](./os-9.md)(6809) に触れる機会を得る。
@@ -56,34 +59,40 @@
 * 2008年ー[広告代理店のWebシステム管理](./freebsd-php.md)
 * 2015年ー[広告代理店・WebシステムバックエンドDB管理](./firebird.md)
 * 2025年　[排水管理・三菱PLC接続・データ管理](./plc-python.md) 
-
+* 2026年  [広告代理店/規格認証業務団体主催事業系Webリファクタリング](./sdforum_refoctoring.md)
 ## 現況
 
-* 業務システム改善に、GitHub Copilot と対話する日々
-* Linux 現在は　Ubuntu　を日常業務で活用。
-* デスクトップ環境としてGhostBSD(FreeBSD)、macBookAir(macOS)も日々活用。
-* [P2V: Windows95](./win95.md) で動くFAシステムに対するサポート。Windows10 PCの上のVirtualBoxで Windows95を稼働させ、ソフトウェア資産の減耗に対するケアを提供。
+* 業務システム改善に、Claude Code/codex によるリファクタリングに従事
+* Linux / 現在は　Ubuntu　を常用
+* デスクトップ環境として　macBookAir(macOS)も利用、検証用としてWindows11環境も所有するが常用せず。
+* <s>[P2V: Windows95](./win95.md) で動くFAシステムに対するサポート。Windows 10 PCの上のVirtualBoxで Windows95を稼働させ、ソフトウェア資産の減耗に対するケアを提供。</s>
 * Apple/macOS: iPhoneアプリ開発のため取得。iPhoneのMDM管理などに利用。
 * FreeBSD/OS 管理全般 (インストールサーバ数 33台/ OSコンテナ含む160程度を管理）
 * samba/openldap/radius/nagios/zabbix/postfix　の 保守管理（ローカルなコードカスタマイズ含む）
-* VPN/DNS の知識を活用した様々な提案と運用環境の実現・運用サポート
-* WindowsPCの日常管理サポート・提携先ソフトウェア事業のサポート（DB運用など）
+* VPN(IPsec/Wireguard)/DNS(powerdns/unbound) の知識を活用した様々な提案と運用環境の実現・運用サポート
+* WindowsPCの日常管理サポート・提携先ソフトウェア事業のサポート（DB運用）
 * TeamViewer/VNC/RDP を駆使してリモートでのエンドユーザサポート
 
 
-## サンプルなど
+## 業務サンプルなど
+
 * nodejs/expressjs を使用した小規模システム開発
 
 ![ScreenShot](images/soldata_ss.png)
 
-
-
 ## 現在進めているもの
 
-* 「負の遺産」清算と効率化
-* 製造現場での問題可視化
-* raspberry-pi の 活用
+1. メインテーマ：「負の遺産」清算と効率化(IaC)
+
 * OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)
+
+2. いま一番没頭しているもの:
+
+* Codex を claude code と同等に使えるようにする　(新しいバージョンがFreeBSDサーバ上で使えるのが大きい)
+* [スキル関連](https://zenn.dev/hikosakasohtaro/articles/20260613_codex_personal_skills)
+
+3. 去年やっていて冷めたもの
+
 * LLM([llama.cpp](https://qiita.com/search?sort=&q=user%3Astrnh+llama)/ollama の実用化に対する調査)
 * Python/ES/tsx その他
 
