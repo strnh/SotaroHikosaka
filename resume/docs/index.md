@@ -82,19 +82,19 @@ i
 
 ## 現在進めているもの
 
-1. メインテーマ：「負の遺産」清算と効率化(IaC)
+### メインテーマ：「負の遺産」清算と効率化(IaC)
 
 * OS管理の自動化 (特に FreeBSD / Ansible/railsの構成)
 
-2. いま一番没頭しているもの:
+### いま一番没頭しているもの:
 
 * Codex を claude code と同等に使えるようにする　(新しいバージョンがFreeBSDサーバ上で使えるのが大きい)
 * [スキル関連](https://zenn.dev/hikosakasohtaro/articles/20260613_codex_personal_skills)
 
-3. 去年やっていて冷めたもの
+### やや冷めたもの
 
 * LLM([llama.cpp](https://qiita.com/search?sort=&q=user%3Astrnh+llama)/ollama の実用化に対する調査)
-* Python/ES/tsx その他
+* Python/ES/tsx 
 
 
 ## 就業条件
